@@ -1,3 +1,4 @@
+import React from "react";
 const inputs = document.querySelectorAll(".input");
 
 
@@ -18,3 +19,4 @@ inputs.forEach(input => {
 	input.addEventListener("focus", addcl);
 	input.addEventListener("blur", remcl);
 });
+export default App;
