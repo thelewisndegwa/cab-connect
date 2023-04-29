@@ -1,22 +1,14 @@
 import React from "react";
-const inputs = document.querySelectorAll(".input");
+import LogIn from './login.js';
 
-
-function addcl(){
-	let parent = this.parentNode.parentNode;
-	parent.classList.add("focus");
+import './App.css';
+function App() {
+  return (
+    <>
+     
+      <LogIn />
+    </>
+  );
 }
 
-function remcl(){
-	let parent = this.parentNode.parentNode;
-	if(this.value == ""){
-		parent.classList.remove("focus");
-	}
-}
-
-
-inputs.forEach(input => {
-	input.addEventListener("focus", addcl);
-	input.addEventListener("blur", remcl);
-});
 export default App;
