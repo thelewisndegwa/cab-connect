@@ -1,14 +1,29 @@
+import React from "react";
 
+const inputs = document.querySelectorAll(".input");
 
-
-import './App.css';
-function App() {
-  return (
-    <>
-     
-      <LogIn />
-    </>
-  );
+function addcl() {
+  let parent = this.parentNode.parentNode;
+  parent.classList.add("focus");
 }
 
-export default App;
+function remcl() {
+  let parent = this.parentNode.parentNode;
+  if (this.value == "") {
+    parent.classList.remove("focus");
+  }
+}
+
+function LogIn() {
+  inputs.forEach((input) => {
+    input.addEventListener("focus", addcl);
+    input.addEventListener("blur", remcl);
+  });
+
+  return <div>Login Form</div>;
+}
+
+export default LogIn;
+
+
+
