@@ -1,1 +1,54 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
+.App {
+  max-width: 100%;
+text-align: center;
+}
+
+nav{
+  padding: 3px;
+  background: rgb(60, 194, 7);
+  color: #db3b3b;
+}
+
+nav ul {
+  padding: 0;
+}
+nav ul li {
+  display: inline-flex;
+  margin: 0 15px;
+cursor: progress;
+  padding: 5px;
+  font-weight: 600;
+}
+nav ul li h3{
+  text-align: left;
+  color: #ffffff;
+  align-items: flex-start;
+}
+.nav-link{
+  color: #ffffff;
+  text-decoration: none;
+}
+.destination {
+  position: relative;
+}
+
+.loca {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+}
+
+.map {
+  position: relative;
+  z-index: 0;
+}
