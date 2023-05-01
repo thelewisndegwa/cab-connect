@@ -8,11 +8,11 @@ import { Icon } from "leaflet";
   const position2 = [-0.573174, 37.255472];
   const position3 = [-0.573174, 37.9060];
   const position4 = [-0.573174, 37.195472];
-  const position5 = [0.1766, 37.275472];
-  const position6 = [0.1769, 37.155472];
-  const position7 = [0.1769, 37.9083];
-  const position8 = [0.1769, 5.1026];
-  const zoomLevel = 7;
+  const position5 = [-0.1766, 37.275472];
+  const position6 = [-0.1769, 37.155472];
+  const position7 = [-0.1769, 37.9083];
+  const position8 = [-0.1769, 5.1026];
+  const zoomLevel = 17;
 
   const codingSpot = new Icon({
     iconUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBAnOSKgxSAyRVthDaWVysClWhEh2Hc6qDwA&usqp=CAU",
