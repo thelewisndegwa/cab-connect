@@ -3,13 +3,13 @@ import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import { Icon } from "leaflet";
  
  const Map = () => {
-  const position = [0.1769, 5.1026];
-  const position1 = [0.1769, 4.1026];
-  const position2 = [0.1769, 5.1026];
-  const position3 = [0.0236, 37.9060];
-  const position4 = [0.1769, 37.9083];
-  const position5 = [0.1766, 37.9083];
-  const position6 = [0.1769, 37.9083];
+  const position = [-0.5000, 37.3333];
+  const position1 = [-0.573174, 37.205472];
+  const position2 = [-0.573174, 37.255472];
+  const position3 = [-0.573174, 37.9060];
+  const position4 = [-0.573174, 37.195472];
+  const position5 = [0.1766, 37.275472];
+  const position6 = [0.1769, 37.155472];
   const position7 = [0.1769, 37.9083];
   const position8 = [0.1769, 5.1026];
   const zoomLevel = 7;
