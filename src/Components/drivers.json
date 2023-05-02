@@ -1,0 +1,95 @@
+{
+    "drivers": [
+      {
+        "id": 1,
+        "firstName": "John",
+        "lastName": "Doe",
+        "carModel": "Toyota Vitz",
+        "carColor": "Red",
+        "numberPlate": "KCA 123X",
+        "imageSource": "https://example.com/driver1.jpg"
+      },
+      {
+        "id": 2,
+        "firstName": "Jane",
+        "lastName": "Doe",
+        "carModel": "Honda Fit",
+        "carColor": "Blue",
+        "numberPlate": "KCB 456Y",
+        "imageSource": "https://example.com/driver2.jpg"
+      },
+      {
+        "id": 3,
+        "firstName": "David",
+        "lastName": "Mwangi",
+        "carModel": "Nissan March",
+        "carColor": "White",
+        "numberPlate": "KCA 789Z",
+        "imageSource": "https://example.com/driver3.jpg"
+      },
+      {
+        "id": 4,
+        "firstName": "Mary",
+        "lastName": "Wambui",
+        "carModel": "Suzuki Alto",
+        "carColor": "Black",
+        "numberPlate": "KCB 246W",
+        "imageSource": "https://example.com/driver4.jpg"
+      },
+      {
+        "id": 5,
+        "firstName": "Peter",
+        "lastName": "Omondi",
+        "carModel": "Toyota Passo",
+        "carColor": "Silver",
+        "numberPlate": "KCA 369R",
+        "imageSource": "https://example.com/driver5.jpg"
+      },
+      {
+        "id": 6,
+        "firstName": "Grace",
+        "lastName": "Muthoni",
+        "carModel": "Subaru Impreza",
+        "carColor": "Green",
+        "numberPlate": "KCB 582S",
+        "imageSource": "https://example.com/driver6.jpg"
+      },
+      {
+        "id": 7,
+        "firstName": "Kevin",
+        "lastName": "Kimani",
+        "carModel": "Mazda Demio",
+        "carColor": "Orange",
+        "numberPlate": "KCA 951T",
+        "imageSource": "https://example.com/driver7.jpg"
+      },
+      {
+        "id": 8,
+        "firstName": "Lucy",
+        "lastName": "Njeri",
+        "carModel": "Toyota Corolla",
+        "carColor": "Yellow",
+        "numberPlate": "KCB 873V",
+        "imageSource": "https://example.com/driver8.jpg"
+      },
+      {
+        "id": 9,
+        "firstName": "Mark",
+        "lastName": "Otiende",
+        "carModel": "Honda City",
+        "carColor": "Brown",
+        "numberPlate": "KCA 624U",
+        "imageSource": "https://example.com/driver9.jpg"
+      },
+      {
+        "id": 10,
+        "firstName": "Sarah",
+        "lastName": "Macharia",
+        "carModel": "Nissan Note",
+        "carColor": "Purple",
+        "numberPlate": "KCB 315P",
+        "imageSource": "https://example.com/driver10.jpg"
+      }
+    ]
+  }
+  
