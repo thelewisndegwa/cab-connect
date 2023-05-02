@@ -8,4 +8,4 @@ function Ridehistory() {
   )
 }
 
-export default Ridehistory
+export default Ridehistory;

@@ -76,4 +76,4 @@ import { Icon } from "leaflet";
   );
 };
 
-export default Map
+export default Map;
