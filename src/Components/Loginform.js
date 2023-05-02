@@ -8,4 +8,4 @@ function Login() {
   );
 }
 
-export default Destination;
+export default Login;
