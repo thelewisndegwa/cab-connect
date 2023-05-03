@@ -1,5 +1,11 @@
 import React from 'react';
 import './Footer.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebookF,
+  faTwitter,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
   return (
@@ -58,6 +64,27 @@ function Footer() {
           <li>Twitter</li>
           <li>Facebook</li>
         </ul>
+        <div className="footer-section">
+  <h4>Follow Us</h4>
+  <ul>
+    <li>
+      <a href="https://www.facebook.com/">
+        <FontAwesomeIcon icon={faFacebookF} />
+      </a>
+    </li>
+    <li>
+      <a href="https://www.twitter.com/">
+        <FontAwesomeIcon icon={faTwitter} />
+      </a>
+    </li>
+    <li>
+      <a href="https://www.instagram.com/">
+        <FontAwesomeIcon icon={faInstagram} />
+      </a>
+    </li>
+  </ul>
+</div>
+
       </div>
     </div>
   );
