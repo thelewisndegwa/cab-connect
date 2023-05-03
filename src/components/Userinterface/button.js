@@ -35,16 +35,30 @@ function Buttonn() {
         </button>
 
         <Dialog open={open} onClose={handleClose}>
-        <DialogTitle>Sign Up</DialogTitle>
+        <DialogTitle>Log In</DialogTitle>
+       
         <DialogContent>
           <DialogContentText>
          Fill in the following details
           </DialogContentText>
+
           <TextField
             autoFocus
             required
             margin="dense"
             id="name"
+            label="Name"
+            type="text"
+            fullWidth
+            variant="standard"
+          />
+
+
+          <TextField
+            autoFocus
+            required
+            margin="dense"
+            id="email"
             label="Email Address"
             type="email"
             fullWidth
@@ -55,7 +69,7 @@ function Buttonn() {
             required
             autoFocus
             margin="dense"
-            id="name"
+            id="password"
             label="Password"
             type="password"
             fullWidth
@@ -66,7 +80,7 @@ function Buttonn() {
         </DialogContent>
         <DialogActions>
           <Button onClick={handleClose}>Cancel</Button>
-          <Button onClick={handleClose}>Create Account</Button>
+          <Button onClick={handleClose}>Log In</Button>
         </DialogActions>
       </Dialog>
       </Link>
