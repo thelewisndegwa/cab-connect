@@ -9,7 +9,7 @@ import Map, {
   GeolocateControl,
 } from "react-map-gl";
 import { useState } from "react";
-import { FaDirections } from "react-icons/fa";
+
 function TestMap() {
   const [lng, setLng] = useState(54.37585762735543);
   const [lat, setLat] = useState(24.45677614934833);
@@ -32,11 +32,12 @@ function TestMap() {
         }}
         mapStyle="mapbox://styles/mapbox/streets-v9"
       >
-        <Marker longitude={lng} latitude={lat} />
+        {/* <Marker longitude={lng} latitude={lat} /> */}
         <NavigationControl position="bottom-right" />
-        <FullscreenControl />
+        {/* <FullscreenControl /> */}
 
         <GeolocateControl />
+        
          
 
 
