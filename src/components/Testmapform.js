@@ -2,7 +2,7 @@ import React from "react";
 
 import "mapbox-gl/dist/mapbox-gl.css";
 import Map, {
-  gitNavigationControl,
+  NavigationControl,
   GeolocateControl,
 } from "react-map-gl";
 import { useState } from "react";

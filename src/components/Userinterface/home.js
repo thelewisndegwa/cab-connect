@@ -1,6 +1,6 @@
 import React from 'react'
 import Map from '../map'
-import Destination from '../destination'
+import Destination from './destination'
 
 const Home = () => {
   return (
