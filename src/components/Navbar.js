@@ -36,8 +36,8 @@ function Navbar() {
       <nav className="navbar">
         <Link to="/" className="navbar-logo" onClick={() => setSidebar(false)}>
           <Icons.FaTaxi />
-         
-        </Link>
+          𝓒𝓪𝓫𝓒𝓸𝓷𝓷𝓮𝓬𝓽
+         </Link>
         {!mobile && (
           <ul className="nav-items">
             {navItems.map((item) => {

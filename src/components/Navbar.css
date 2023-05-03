@@ -1,13 +1,13 @@
 .navbar {
     height: 10vh;
-    background: hsl(0, 0%, 0%);
+    background: hsl(0, 12%, 95%);
     display: flex;
     align-items: center;
     justify-content: center;
   }
   
   .navbar-logo {
-    color: rgba(212, 7, 7, 0.811);
+    color: rgba(0, 0, 0, 0.811);
     text-decoration: none;
     font-size: 2.3rem;
     display: flex;
@@ -30,7 +30,7 @@
   
   .nav-item a {
     text-decoration: none;
-    color: whitesmoke;
+    color: orangered;
     font-size: 1.2rem;
     padding: 6px 16px;
     display: flex;
@@ -41,7 +41,7 @@
   }
   
   .nav-item a:hover {
-    background: orangered;
+    background: rgb(3, 3, 3);
   }
   
   .nav-item a span {
