@@ -2,13 +2,13 @@ import React from "react";
 import "./App.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
-import Payment from "./pages/Payment";
-import Destination from "./pages/Destination";
-import Support from "./pages/Support";
-import Ridehistory from "./pages/Ridehistory";
-import Signup from "./pages/Signup";
-import About from "./pages/about";
+import Home from "./components/home";
+import Payment from "./components/payment";
+import Destination from "./components/destination";
+import Support from "./components/support";
+import Ridehistory from "./components/Ridehistory";
+import Signup from "./components/Signup";
+import About from "./components/about";
 
 function App() {
   return (
