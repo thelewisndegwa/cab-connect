@@ -3,73 +3,63 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <footer className="footer-container">
+    <div className="footer-container">
       <div className="footer-section">
-        <h4>About</h4>
+        <h4>UBER</h4>
         <ul>
-          <li>Our story</li>
+          <li>About Us</li>
           <li>Newsroom</li>
           <li>Investors</li>
           <li>Careers</li>
           <li>Blog</li>
+          <li>Gift Cards</li>
         </ul>
       </div>
       <div className="footer-section">
-        <h4>Products</h4>
+        <h4>PRODUCTS</h4>
         <ul>
           <li>Ride</li>
           <li>Drive</li>
-          <li>Freight</li>
+          <li>Eats</li>
           <li>Business</li>
+          <li>Transit</li>
+          <li>Cargo</li>
+          <li>Bikes</li>
+          <li>Scooters</li>
+          <li>Flying Taxis</li>
         </ul>
       </div>
       <div className="footer-section">
-        <h4>Cities</h4>
+        <h4>SUPPORT</h4>
         <ul>
-          <li>Nairobi</li>
-          <li>Mombasa</li>
-          <li>Kisumu</li>
-          <li>Eldoret</li>
-          <li>Nakuru</li>
-        </ul>
-      </div>
-      <div className="footer-section">
-        <h4>Support</h4>
-        <ul>
-          <li>Contact us</li>
-          <li>Help center</li>
+          <li>Help Center</li>
           <li>Accessibility</li>
+          <li>Safety</li>
+          <li>Community Guidelines</li>
+          <li>COVID-19 Resources</li>
         </ul>
       </div>
       <div className="footer-section">
-        <h4>Legal</h4>
+        <h4>LEGAL</h4>
         <ul>
-          <li>Terms of use</li>
-          <li>Privacy policy</li>
-          <li>Cookie policy</li>
+          <li>Terms and Conditions</li>
+          <li>Privacy Policy</li>
+          <li>Driver Privacy</li>
+          <li>Electronic Consent</li>
+          <li>Terms of Use</li>
+          <li>Dispute Resolution</li>
+          <li>Terms of Service</li>
         </ul>
       </div>
-      <div className="footer-section social">
-        <h4>Follow us</h4>
+      <div className="footer-section">
+        <h4>CONNECT</h4>
         <ul>
-          <li>
-            <a href="#">
-              <i className="fab fa-facebook-f"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i className="fab fa-twitter"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i className="fab fa-instagram"></i>
-            </a>
-          </li>
+          <li>Instagram</li>
+          <li>Twitter</li>
+          <li>Facebook</li>
         </ul>
       </div>
-    </footer>
+    </div>
   );
 }
 
