@@ -33,6 +33,40 @@ function Buttonn() {
           <Icons.FaUserPlus />
           <span>Sign Up</span>
         </button>
+
+        <Dialog open={open} onClose={handleClose}>
+        <DialogTitle>Sign Up</DialogTitle>
+        <DialogContent>
+          <DialogContentText>
+         Fill in the following details
+          </DialogContentText>
+          <TextField
+            autoFocus
+            margin="dense"
+            id="name"
+            label="Email Address"
+            type="email"
+            fullWidth
+            variant="standard"
+          />
+
+<TextField
+            autoFocus
+            margin="dense"
+            id="name"
+            label="Password"
+            type="password"
+            fullWidth
+            variant="standard"
+          />
+
+
+        </DialogContent>
+        <DialogActions>
+          <Button onClick={handleClose}>Cancel</Button>
+          <Button onClick={handleClose}>Create Account</Button>
+        </DialogActions>
+      </Dialog>
       </Link>
     </>
   );
