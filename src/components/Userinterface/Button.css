@@ -30,3 +30,56 @@
       display: none;
     }
   }
+
+
+
+  /* the css for the dialog */
+
+
+  .MuiDialog-paper {
+    max-width: 500px;
+    padding: 20px;
+  }
+  
+  .MuiDialogTitle-root {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .MuiDialogContent-root {
+    margin-top: 20px;
+  }
+  
+  .MuiDialogContentText-root {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .MuiTextField-root {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .MuiDialogActions-root {
+    margin-top: 20px;
+    justify-content: center;
+  }
+  
+  .MuiButton-root {
+    text-transform: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 0 10px;
+  }
+  
+  .MuiButton-containedPrimary {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .MuiButton-containedPrimary:hover {
+    background-color: #0069d9;
+  }
+  
