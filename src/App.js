@@ -9,7 +9,7 @@ import Support from "./components/support";
 import Ridehistory from "./components/Ridehistory";
 //import Signup from "./components/Signup";
 import About from "./components/about";
-import TestMap from "./components/testMap&Form";
+import Testmapform from "./components/Testmapform";
 
 function App() {
   return (
@@ -24,10 +24,11 @@ function App() {
           <Route path="/Ridehistory" component={Ridehistory}></Route>
           {/* <Route path="/signup" component={Signup}></Route> */}
           <Route path="/about" component={About}></Route>
+          <Route path="/Testmapform" component={Testmapform}></Route>
         </Routes>
       </BrowserRouter>
 
-      <TestMap/>
+      
       
     </div>
   );
