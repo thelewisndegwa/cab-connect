@@ -9,6 +9,7 @@ import Support from "./components/support";
 import Ridehistory from "./components/Ridehistory";
 //import Signup from "./components/Signup";
 import About from "./components/about";
+import TestMap from "./components/testMap&Form";
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
           <Route path="/about" component={About}></Route>
         </Routes>
       </BrowserRouter>
+
+      <TestMap/>
+      
     </div>
   );
 }
