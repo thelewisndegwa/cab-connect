@@ -27,7 +27,7 @@ export const navItems = [
   },
   {
     id: 5,
-    title: "Ride History",
+    title: "History",
     path: "/ride-history",
     icon: <Icons.FaHistory />,
     nName: "nav-item",
