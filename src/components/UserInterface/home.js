@@ -1,5 +1,5 @@
 import React from 'react'
-import Map from './map'
+import Map from '../map'
 import Destination from './destination'
 
 const Home = () => {

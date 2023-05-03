@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter, Route, Routes} from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Home from "./components/home";
+import Navbar from "./components/UserInterface/Navbar";
+import Home from "./components/UserInterface/home";
 import Payment from "./components/Payment";
-import Destination from "./components/destination";
+import Destination from "./components/UserInterface/destination";
 import Support from "./components/support";
 import Ridehistory from "./components/Ridehistory";
 //import Signup from "./components/Signup";
