@@ -31,7 +31,7 @@ function Buttonn() {
       <Link to="signup">
         <button className="btn" variant="outlined" onClick={handleClickOpen} >
           <Icons.FaUserPlus />
-          <span>Sign Up</span>
+          <span>Log In</span>
         </button>
 
         <Dialog open={open} onClose={handleClose}>
