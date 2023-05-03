@@ -42,6 +42,7 @@ function Buttonn() {
           </DialogContentText>
           <TextField
             autoFocus
+            required
             margin="dense"
             id="name"
             label="Email Address"
@@ -51,6 +52,7 @@ function Buttonn() {
           />
 
 <TextField
+            required
             autoFocus
             margin="dense"
             id="name"
