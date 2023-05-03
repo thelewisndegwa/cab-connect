@@ -2,10 +2,7 @@ import React from "react";
 
 import "mapbox-gl/dist/mapbox-gl.css";
 import Map, {
-  Marker,
-  NavigationControl,
-  Popup,
-  FullscreenControl,
+  gitNavigationControl,
   GeolocateControl,
 } from "react-map-gl";
 import { useState } from "react";
