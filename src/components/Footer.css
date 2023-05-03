@@ -3,8 +3,8 @@
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 40px 20px;
-    background-color: #19191B;
-    color: #FFFFFF;
+    background-color: #eaeaef;
+    color: #000000;
   }
   
   .footer-section {
@@ -45,6 +45,6 @@
     }
   }
   .footer-container {
-    background-color: #19191B;
+    background-color: #f8f8ff;
     animation-name: background-color
   }    

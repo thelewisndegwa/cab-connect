@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className="footer-container">
       <div className="footer-section">
-        <h4>UBER</h4>
+        <h3> 𝓒𝓪𝓫𝓒𝓸𝓷𝓷𝓮𝓬𝓽</h3>
         <ul>
           <li>About Us</li>
           <li>Newsroom</li>
