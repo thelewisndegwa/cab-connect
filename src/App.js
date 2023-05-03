@@ -4,10 +4,10 @@ import { BrowserRouter, Route, Routes} from "react-router-dom";
 import Navbar from "./components/Userinterface/Navbar";
 import Home from "./components/Userinterface/home";
 import Payment from "./components/Payment";
-import Destination from "./components/Userinterface/destination";
+//import Destination from "./components/Userinterface/destination";
 import Support from "./components/support";
 import Ridehistory from "./components/Ridehistory";
-import Signup from "./components/Userinterface/Signup";
+//import Signup from "./components/Userinterface/Signup";
 import About from "./components/about";
 import Testmapform from "./components/Testmapform";
 

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import * as Icons from "react-icons/fa";
 import "./Navbar.css";
 import Button from "../button";
-import { navitems } from "../Navitems.js";
+import { navItems } from "../Navitems.js";
 
 function Navbar() {
   const [mobile, setMobile] = useState(false);
