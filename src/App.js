@@ -10,11 +10,12 @@ import Ridehistory from "./components/Ridehistory";
 
 import About from "./components/about";
 import Testmapform from "./components/Testmapform";
-import Cabconnectai from "./components/cabconnectai";
-e
+
+
 import Destination from "./components/Userinterface/destination";
 import SignupForm from "./components/Userinterface/Signup";
 import Footer from "./components/Footer";
+import Cabconnect from "./components/Cabconnectai";
 function App() {
   return (
     <div className="App">
@@ -32,7 +33,7 @@ function App() {
          
         </Routes>
       </BrowserRouter>
-      <Cabconnectai />
+    <Cabconnect/>
       <Testmapform/>
      <Footer/>
     </div>
