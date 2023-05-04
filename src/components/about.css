@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }.image {
+    max-width: 25%;
+    max-height:15%;}.side-to-side {
+    font-size: 20px;
+    justify-content: center;
+    padding-left: 210px;
+    display: flex;
+    font-size: 110%;
+  }
