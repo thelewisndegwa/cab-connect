@@ -15,7 +15,7 @@ import Testmapform from "./components/Testmapform";
 import Destination from "./components/Userinterface/destination";
 import SignupForm from "./components/Userinterface/Signup";
 import Footer from "./components/Footer";
-import Cabconnect from "./components/Cabconnectai";
+import Chatbox from "./components/Chatbox";
 function App() {
   return (
     <div className="App">
@@ -34,7 +34,7 @@ function App() {
         </Routes>
       </BrowserRouter>
          <Testmapform/>
-         <Cabconnect/>
+         <Chatbox/>
      <Footer/>
     </div>
   );

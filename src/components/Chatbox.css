@@ -1,0 +1,130 @@
+/* Chatbox container styles */
+.chatbox-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+/* Chatbox image styles */
+.chatbox-image {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  float: left;
+}
+
+/* Chatbox form styles */
+.chatbox-form {
+  display: flex;
+  margin: 10px;
+  overflow: hidden;
+}
+
+/* Chatbox input field styles */
+.chatbox-input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: #f0f0f0;
+  font-size: 16px;
+}
+
+/* Chatbox submit button styles */
+.chatbox-submit {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Chatbox submit button hover effect */
+.chatbox-submit:hover {
+  background-color: #0062cc;
+}
+
+/* Chatbox submit button click effect */
+.chatbox-submit:active {
+  background-color: #005cbf;
+}
+
+/* Report form styles */
+.report-form {
+  margin: 10px;
+  display: none;
+}
+
+/* Report message textarea styles */
+.report-message {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  font-size: 16px;
+  resize: none;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+/* Report submit button styles */
+.report-submit {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Report submit button hover effect */
+.report-submit:hover {
+  background-color: #0062cc;
+}
+
+/* Report submit button click effect */
+.report-submit:active {
+  background-color: #005cbf;
+}
+
+/* Report driver button styles */
+.report-button {
+  display: block;
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Report driver button hover effect */
+.report-button:hover {
+  background-color: #0062cc;
+}
+
+/* Report driver button click effect */
+.report-button:active {
+  background-color: #005cbf;
+}
+
+/* Report driver button hover effect */
+.report-button:hover + .report-form {
+  display: block;
+}
