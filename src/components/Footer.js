@@ -53,13 +53,7 @@ function Footer() {
           <li>Terms of Service</li>
         </ul>
       </div>
-      <div className="footer-section">
-        <h4>CONNECT</h4>
-        <ul>
-          <li>Instagram</li>
-          <li>Twitter</li>
-          <li>Facebook</li>
-        </ul>
+      
         <div className="footer-section">
   <h4>Follow Us</h4>
   <ul>
@@ -84,8 +78,7 @@ function Footer() {
   
 </div>
 
-      </div>
-   
+     
   );
 }
 

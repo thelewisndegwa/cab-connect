@@ -1,7 +1,9 @@
+import React from "react";
+import { Link } from "react-router-dom";
 import * as Icons from "react-icons/fa";
-// import { NavLink } from "react-router-dom";
-// import handleShoww from testChatbox
-import handleShow from "./testChatbox";
+import "./Navbar.css";
+import Button from "./button";
+import { handleShow } from "./testChatbox";
 
 export const navItems = [
   {
@@ -11,15 +13,7 @@ export const navItems = [
     icon: <Icons.FaHome />,
     nName: "nav-item",
     sName: "sidebar-item",
-  },
-  {
-    id: 4,
-    title: "About",
-    path: "/about",
-    icon: <Icons.FaInfoCircle />,
-    nName: "nav-item",
-    sName: "sidebar-item",
-  
+    onClick: () => {},
   },
   {
     id: 2,
@@ -28,14 +22,7 @@ export const navItems = [
     icon: <Icons.FaCreditCard />,
     nName: "nav-item",
     sName: "sidebar-item",
-  },
-  {
-    id: 5,
-    title: "History",
-    path: "/ride-history",
-    icon: <Icons.FaHistory />,
-    nName: "nav-item",
-    sName: "sidebar-item",
+    onClick: () => {},
   },
   {
     id: 3,
@@ -44,6 +31,25 @@ export const navItems = [
     icon: <Icons.FaHeadset />,
     nName: "nav-item",
     sName: "sidebar-item",
-    onClick:{handleShow}
+    onClick: () => {},
+    
+  },
+  {
+    id: 4,
+    title: "About",
+    path: "/about",
+    icon: <Icons.FaInfoCircle />,
+    nName: "nav-item",
+    sName: "sidebar-item",
+    onClick: () => {},
+  },
+  {
+    id: 5,
+    title: "History",
+    path: "/ride-history",
+    icon: <Icons.FaHistory />,
+    nName: "nav-item",
+    sName: "sidebar-item",
+    onClick: () => {},
   },
 ];
