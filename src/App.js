@@ -32,6 +32,8 @@ function App() {
           <Route path="/Testmapform" component={Testmapform}></Route>
         </Routes>
       </BrowserRouter>
+      <Testmapform/>
+      <Chatbox/>
       <Footer />
     </div>
   );
