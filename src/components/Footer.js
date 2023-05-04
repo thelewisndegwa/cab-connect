@@ -57,7 +57,7 @@ function Footer() {
         <div className="footer-section">
   <h4>Follow Us</h4>
   <ul>
-            <li>Instagram</li>
+        
           <li>
             <a href="https://www.twitter.com/">
               <FontAwesomeIcon icon={faTwitter} />
