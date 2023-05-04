@@ -1,4 +1,7 @@
 import * as Icons from "react-icons/fa";
+// import { NavLink } from "react-router-dom";
+// import handleShoww from testChatbox
+import handleShow from "./testChatbox";
 
 export const navItems = [
   {
@@ -16,6 +19,7 @@ export const navItems = [
     icon: <Icons.FaInfoCircle />,
     nName: "nav-item",
     sName: "sidebar-item",
+  
   },
   {
     id: 2,
@@ -40,5 +44,6 @@ export const navItems = [
     icon: <Icons.FaHeadset />,
     nName: "nav-item",
     sName: "sidebar-item",
+    onClick:{handleShow}
   },
 ];
