@@ -1,130 +1,223 @@
-/* Chatbox container styles */
-.chatbox-container {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 300px;
-  border: 1px solid #ccc;
+/* Chatbox.css */
+
+/* Style for the entire chatbox */
+.chatbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
   border-radius: 10px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 100%;
+  max-width: 800px;
 }
 
-/* Chatbox image styles */
-.chatbox-image {
-  display: block;
-  width: 50px;
+/* Style for the header */
+.chatbox-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.chatbox-header img {
   height: 50px;
-  margin: 10px;
-  float: left;
+  margin-right: 10px;
 }
 
-/* Chatbox form styles */
+.chatbox-header h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: orange;
+}
+
+/* Style for the chat messages */
+.chatbox-messages {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.chatbox-message {
+  background-color: orange;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.chatbox-message .icon {
+  margin-right: 10px;
+}
+
+.chatbox-message.user {
+  background-color: white;
+  color: black;
+}
+
+/* Style for the input form */
 .chatbox-form {
   display: flex;
-  margin: 10px;
-  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 100%;
 }
 
-/* Chatbox input field styles */
-.chatbox-input {
-  flex: 1;
+.chatbox-form label {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.chatbox-form input[type="text"] {
+  font-size: 20px;
   padding: 10px;
   border: none;
-  border-radius: 20px;
-  background-color: #f0f0f0;
-  font-size: 16px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 500px;
 }
 
-/* Chatbox submit button styles */
-.chatbox-submit {
+.chatbox-form button {
+  background-color: orange;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
   padding: 10px 20px;
   border: none;
-  border-radius: 20px;
-  background-color: #007bff;
-  color: #fff;
-  font-size: 16px;
+  border-radius: 10px;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
+  transition: background-color 0.2s ease;
 }
 
-/* Chatbox submit button hover effect */
-.chatbox-submit:hover {
-  background-color: #0062cc;
+.chatbox-form button:hover {
+  background-color: #ff8800;
 }
 
-/* Chatbox submit button click effect */
-.chatbox-submit:active {
-  background-color: #005cbf;
-}
-
-/* Report form styles */
-.report-form {
-  margin: 10px;
-  display: none;
-}
-
-/* Report message textarea styles */
-.report-message {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  background-color: #f0f0f0;
-  font-size: 16px;
-  resize: none;
-  height: 100px;
+/* Style for the rate trip functionality */
+.chatbox-rating {
+  display: flex;
+  align-items: center;
   margin-bottom: 10px;
 }
 
-/* Report submit button styles */
-.report-submit {
-  padding: 10px 20px;
-  border: none;
-  border-radius: 20px;
-  background-color: #007bff;
-  color: #fff;
-  font-size: 16px;
+.chatbox-rating label {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+  color: black;
+}
+
+.chatbox-rating .star {
+  color: #ccc;
+  font-size: 32px;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
 }
 
-/* Report submit button hover effect */
-.report-submit:hover {
-  background-color: #0062cc;
+.chatbox-rating .star:hover,
+.chatbox-rating .star.active {
+  color: orange;
 }
 
-/* Report submit button click effect */
-.report-submit:active {
-  background-color: #005cbf;
+/* Style for the example text */
+.chatbox-example {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 10px;
 }
 
-/* Report driver button styles */
-.report-button {
-  display: block;
-  margin: 10px;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 20px;
-  background-color: #007bff;
-  color: #fff;
-  font-size: 16px;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
+/* Style for the book ride section */
+.chatbox-book-ride {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
-/* Report driver button hover effect */
-.report-button:hover {
-  background-color: #0062cc;
+.chatbox-book-ride label {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom:
+  10px;
+color: black;
 }
 
-/* Report driver button click effect */
-.report-button:active {
-  background-color: #005cbf;
+.chatbox-book-ride input[type="text"] {
+font-size: 20px;
+padding: 10px;
+border: none;
+border-radius: 10px;
+margin-bottom: 10px;
+width: 100%;
+max-width: 500px;
 }
 
-/* Report driver button hover effect */
-.report-button:hover + .report-form {
-  display: block;
+.chatbox-book-ride button {
+background-color: orange;
+color: white;
+font-size: 20px;
+font-weight: bold;
+padding: 10px 20px;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+transition: background-color 0.2s ease;
+}
+
+.chatbox-book-ride button:hover {
+background-color: #ff8800;
+}
+
+/* Style for the chatbox input field */
+.chatbox-input {
+width: 100%;
+max-width: 500px;
+font-size: 20px;
+padding: 10px;
+border: none;
+border-radius: 10px;
+margin-bottom: 20px;
+color: black;
+}
+
+/* Style for the chatbox input field when user says hello */
+.chatbox-input.hello {
+background-image: url('https://images.unsplash.com/photo-1565945887714-d5139f4eb0ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c21pbGV5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+background-position: right center;
+background-repeat: no-repeat;
+background-size: 24px 24px;
+padding-right: 40px;
+}
+
+/* Style for the chatbox output message */
+.chatbox-output {
+background-color: orange;
+color: white;
+border-radius: 10px;
+padding: 10px;
+margin-bottom: 10px;
+width: 100%;
+}
+
+/* Style for the chatbox output message with star icons */
+.chatbox-output.star {
+background-image: url('https://media.istockphoto.com/id/1455072146/photo/feedback-concept-white-chat-bubble-with-cut-out-star-shapes-on-blue-cardboard-background.jpg?b=1&s=170667a&w=0&k=20&c=Av8KFtrxCSW0ihkuF7aqbGqdOdi4H7Wwtwz7qQ2Y3GM=');
+background-position: left center;
+background-repeat: no-repeat;
+background-size: 24px 24px;
+padding-left: 40px;
+}
+
+/* Style for the space between input field and the output */
+.chatbox-space {
+height: 20px;
 }
