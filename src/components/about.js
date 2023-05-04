@@ -1,30 +1,59 @@
-import React from 'react'
+import { useState, useEffect } from "react";
 
-const About = () => {
+function about() {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const images = [
+    "https://media.istockphoto.com/id/1391517615/photo/close-up-on-a-couple-using-the-gps-while-driving-a-car.webp?s=1024x1024&w=is&k=20&c=-dvwoX1Kk_-CntuuIUmk7EzyuRBdrxqwBGQ58JGbeXk=",
+    
+    "https://media.istockphoto.com/id/986112112/photo/nfc-near-field-communication-credit-card-payment.jpg?s=612x612&w=0&k=20&c=QqbmBFvct1tMkE8gM7iWtxxG_YGhPWmsA9l5beZGyiI=",
+    
+    "https://images.unsplash.com/photo-1600320254374-ce2d293c324e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8ZHJpdmVyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+  ];
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCurrentImageIndex((prevIndex) =>
+        prevIndex === images.length - 1 ? 0 : prevIndex + 1
+      );
+    }, 3000);
+    return () => clearInterval(intervalId);
+  }, []);
+
   return (
-    <div className="container">
-      <p className="text">
-      Cabconnect is a cab company that specializes in providing transportation services to users in rural areas. The company has a fleet of well-maintained taxis that are driven by experienced and professional drivers. Cabconnect aims to bridge the gap between urban and rural areas by connecting users in remote locations to reliable transportation services.
-
-One of the unique features of Cabconnect is its user-friendly mobile application, which allows users to easily book a cab from the comfort of their homes or workplaces. The app is available for both iOS and Android devices and can be downloaded from the respective app stores. The app enables users to book a cab in just a few clicks and provides real-time updates on the location of the cab and estimated time of arrival.
-
-Cabconnect also offers a telephone booking service for users who do not have access to the internet or prefer to book over the phone. The company's customer service team is available 24/7 to assist users with their bookings and queries.
-
-Cabconnect's fleet consists of various types of vehicles to cater to the different needs of its users. The company has a range of cars, vans, and SUVs that can accommodate anywhere from one to eight passengers. The vehicles are all equipped with GPS tracking systems, which enable the company to monitor the location of its fleet in real-time and provide accurate estimated arrival times to its users.
-
-All of Cabconnect's drivers undergo extensive training and background checks to ensure that they are qualified and reliable. The company places a strong emphasis on safety and ensures that its drivers follow all traffic rules and regulations. Cabconnect also has a strict code of conduct that its drivers must abide by, which includes being polite and respectful to users at all times.
-
-In addition to its transportation services, Cabconnect also offers delivery services for small packages and documents. The company's couriers are equipped with GPS tracking systems, which enable them to provide real-time updates on the location of the package and estimated time of delivery.
-
-Overall, Cabconnect is a reliable and convenient cab company that connects users in rural areas to transportation services. Its user-friendly mobile application, wide range of vehicles, and professional drivers make it a popular choice among users in remote locations.
-      </p>
+    <div className="cab-connect">
+      <div className="image-container">
+        {images.map((imageUrl, index) => (
+          <img
+            key={imageUrl}
+            src={imageUrl}
+            alt={`Cab Connect ${index + 1}`}
+            className={`fade ${
+              currentImageIndex === index ? "active" : ""
+            }`}
+          />
+        ))}
+      </div>
+      <div className="content">
+        <h1>Welcome to Cab Connect</h1>
+        <p>
+          Cab Connect is your one-stop solution for all your transportation needs.
+          Our experienced drivers and well-maintained vehicles ensure a safe and
+          comfortable journey. We offer a wide range of services including airport
+          transfers, corporate travel, and sightseeing tours. With Cab Connect,
+          you can sit back, relax, and enjoy the ride.
+        </p>
+        <p>
+          Our mission is to provide our customers with the highest level of
+          service and professionalism. We believe that every journey should be a
+          positive experience, and we strive to exceed your expectations every
+          time you ride with us.
+        </p>
+        <p>
+          So why wait? Book your ride today and experience the comfort and
+          convenience of Cab Connect.
+        </p>
+      </div>
     </div>
   );
 }
-
-
-
-
-
-
-export default About;
+export default about;
