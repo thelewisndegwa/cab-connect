@@ -21,7 +21,7 @@ function About() {
 
   return (
     <div className="cab-connect">
-      {/* <div className="image-container">
+      { <div className="image-container">
         {images.map((imageUrl, index) => (
           <img
             key={imageUrl}
@@ -32,7 +32,7 @@ function About() {
             }`}
           />
         ))}
-      </div> */}
+      </div> }
       <div className="content">
         <h1>Welcome to Cab Connect</h1>
         <p>
