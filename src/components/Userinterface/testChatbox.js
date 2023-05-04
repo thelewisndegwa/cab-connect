@@ -192,4 +192,4 @@ function TestChatbox() {
   )
 }
 
-export default {TestChatbox,handleShow}
+export default {TestChatbox}
