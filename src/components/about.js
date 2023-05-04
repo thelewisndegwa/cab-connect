@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-function about() {
+function About() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const images = [
     "https://media.istockphoto.com/id/1391517615/photo/close-up-on-a-couple-using-the-gps-while-driving-a-car.webp?s=1024x1024&w=is&k=20&c=-dvwoX1Kk_-CntuuIUmk7EzyuRBdrxqwBGQ58JGbeXk=",
@@ -56,4 +56,4 @@ function about() {
     </div>
   );
 }
-export default about;
+export default About;
