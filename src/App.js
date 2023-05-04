@@ -16,6 +16,7 @@ import Destination from "./components/Userinterface/destination";
 import SignupForm from "./components/Userinterface/Signup";
 import Footer from "./components/Footer";
 import Chatbox from "./components/Chatbox";
+
 function App() {
   return (
     <div className="App">
@@ -35,6 +36,7 @@ function App() {
       </BrowserRouter>
          <Testmapform/>
          <Chatbox/>
+         
      <Footer/>
     </div>
   );
