@@ -39,19 +39,19 @@ function Chatbox() {
         setShowReportDriver(false);
         setShowRateTrip(false);
       } else if (question === bookRide) {
-        setResponse(`Please provide your pickup location and destination, ${name}.`);
+        setResponse(`${name},Please provide your pickup location and destination`);
         setExample('');
         setShowBookRide(true);
         setShowReportDriver(false);
         setShowRateTrip(false);
       } else if (question === reportDriver) {
-        setResponse(`Please provide details of the issue, ${name}.`);
+        setResponse(` ${name},Please provide details of the issue.`);
         setExample('');
         setShowBookRide(false);
         setShowReportDriver(true);
         setShowRateTrip(false);
       } else if (question === rateTrip) {
-        setResponse(`How would you rate your trip, ${name}?`);
+        setResponse(`${name},How would you rate your trip?`);
         setExample('');
         setShowBookRide(false);
         setShowReportDriver(false);
