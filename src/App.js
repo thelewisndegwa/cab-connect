@@ -5,7 +5,7 @@ import Navbar from "./components/Userinterface/Navbar";
 import Home from "./components/Userinterface/home";
 import Payment from "./components/Payment";
 
-import Support from "./components/support";
+
 import Ridehistory from "./components/Ridehistory";
 
 import About from "./components/about";
