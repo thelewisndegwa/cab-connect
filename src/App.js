@@ -35,6 +35,7 @@ function App() {
       </BrowserRouter>
          <Testmapform/>
          <Chatbox/>
+         
      <Footer/>
     </div>
   );
